@@ -30,3 +30,21 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.container-links {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.link {
+  transition: transform 2s ease;
+}
+
+.link:hover {
+  transform: scale(1.08);
+}
