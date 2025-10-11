@@ -10,9 +10,11 @@
 
 /* Sections style */
 
-@import url('./back-link.css');
+@import url('./header.css');
 
 @import url('./gallery.css');
+
+@import url('./form.css');
 
 /* Simplelightbox style */
 
